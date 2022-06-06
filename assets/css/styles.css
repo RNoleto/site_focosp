@@ -782,6 +782,7 @@ body.dark-theme {
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .value__orbe {
@@ -1146,11 +1147,10 @@ body.dark-theme {
 
   .about__details{
     margin-bottom: .5rem;
-  }
-
-  .about__details p{
-    margin: 0rem 0;
   } 
+  .about__details i{
+    margin-right: 0.5rem;
+  }
 }
 
 /* For medium devices */
