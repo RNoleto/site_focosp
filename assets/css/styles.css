@@ -1170,7 +1170,7 @@ body.dark-theme {
   }
 
   .home__search {
-    width: 412px;
+    width: auto;
   }
 
   .contact__card {
