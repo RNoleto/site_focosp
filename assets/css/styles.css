@@ -469,10 +469,13 @@ body.dark-theme {
   font-size: 1.25rem;
 }
 
+.contact__form{
+  margin-top: 1.5rem;
+}
+
 .contact__inputs{
   display: grid;
-  row-gap: 1rem;
-  margin-top: 4rem;
+  row-gap: 2rem;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -544,7 +547,9 @@ body.dark-theme {
   align-items: center;
   gap: 4rem;
 }
-
+.about__details i{
+  margin: .3rem 0;
+}
 .about__img{
   width: 380px;
   justify-self: center;
@@ -565,7 +570,6 @@ body.dark-theme {
   margin-bottom: var(--mb-2-5);
   padding-bottom: 5px;
 }
-
 .about__details-description{
   display: inline-flex;
   column-gap: .5rem;
@@ -827,7 +831,7 @@ body.dark-theme {
   border-radius: .25rem;
   font-size: 18px;
   color: var(--first-color);
-  margin-right: .75rem;
+  margin-right: 1rem;
   transition: .3s;
 }
 
@@ -996,7 +1000,8 @@ body.dark-theme {
 }
 
 .footer__copy,
-.footer__privacy a {
+.footer__privacy a,
+.footer__cnpj {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
   color: var(--text-color);
@@ -1057,17 +1062,7 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 350px) {
-  .value__content{
-    padding-top: 0;
-    margin: 0;
-  }
-  .value__container{
-    row-gap: 0;
-  }
-  .value__data{
-    padding: 0;
-  }
+@media screen and (max-width: 375px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1079,6 +1074,11 @@ body.dark-theme {
 
   .home {
     padding-bottom: 0;
+  }
+
+  .about__container{
+    display: grid;
+    flex-direction: column;
   }
 }
 
@@ -1130,19 +1130,24 @@ body.dark-theme {
   .footer__content {
     gap: 2.5rem;
   }
+
   #about .section {
     padding: 0;
   }
+
   .about__description{
     margin-bottom: 1rem;
   }
+
   .about__container {
     display: grid;
     flex-direction: column;
   }
+
   .about__details{
     margin-bottom: .5rem;
   }
+
   .about__details p{
     margin: 0rem 0;
   } 
@@ -1190,15 +1195,6 @@ body.dark-theme {
   .about__details{
     margin-bottom: .5rem;
   }
-  /*.about__details p{
-    margin: 1rem 0;
-  }*/
-  /*.footer__content{
-    max-width: 576px;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }*/
 }
 
 @media screen and (min-width: 767px) {
