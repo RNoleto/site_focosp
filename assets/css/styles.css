@@ -808,6 +808,10 @@ body.dark-theme {
   margin-bottom: 2rem;
 }
 
+.value__content{
+  padding-top: 1rem;
+}
+
 .value__accordion {
   display: grid;
   row-gap: 1.5rem;
@@ -1159,7 +1163,7 @@ body.dark-theme {
 /* For medium devices */
 @media screen and (min-width: 576px) {
   .value__content{
-    padding-top: 0;
+    padding-top: 1rem;
     margin: 0;
   }
   .value__container{
