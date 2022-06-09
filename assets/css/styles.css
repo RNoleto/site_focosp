@@ -1087,6 +1087,9 @@ body.dark-theme {
   .value__container{
     row-gap: 0;
   }
+  .value__content{
+    padding-top: 1rem;
+  }
   .value__data{
     padding: 0;
   }
