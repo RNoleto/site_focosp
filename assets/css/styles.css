@@ -1137,6 +1137,9 @@ body.dark-theme {
     padding: 0;
   }
 
+  .about__img{
+    width: 250px;
+  }
   .about__description{
     margin-bottom: 5px;
   }
