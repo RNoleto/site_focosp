@@ -1084,7 +1084,7 @@ body.dark-theme {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .value__container{
     row-gap: 2rem;
   }
